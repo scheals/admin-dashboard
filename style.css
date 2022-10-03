@@ -79,7 +79,7 @@ li>img {
 
 .dashboard {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 2fr;
     gap: 2rem;
     padding: 2rem 1rem 2rem 1rem;
 }
@@ -105,8 +105,8 @@ li>img {
     padding: 1rem 0.5rem;
 }
 
-.card-text > p {
-    font-size: 0.8rem;
+.card-text > p, .profile-name {
+    font-size: 0.9rem;
 }
 
 .card-images {
@@ -117,9 +117,44 @@ li>img {
 .dashboard-sidebar {
     display: grid;
     grid-template-rows: repeat(2, auto) 1fr;
-    gap: 4rem;
+    gap: 1rem;
 }
 
 .dashboard-sidebar h4 {
     margin-bottom: 0.2rem;
+}
+
+.announcements, .trending {
+    padding: 1rem;
+}
+
+.announcements>p {
+    font-size: 0.7rem;
+}
+
+.announcements>p:nth-of-type(-n+2) {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 0.1rem rgba(128, 128, 128, 0.624);
+}
+.announcements>h4 {
+    font-size: 0.9rem;
+}
+
+.profiles {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.profile {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.profile>img {
+    flex: 0;
+}
+
+.profile-name {
+    flex: 1;
 }
