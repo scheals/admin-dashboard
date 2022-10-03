@@ -49,6 +49,7 @@ li>img {
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     padding: 1rem 1rem 1rem 2rem;
+    box-shadow: 8px 20px #701a75;
 }
 
 .search-profile {
@@ -64,6 +65,10 @@ li>img {
     border-radius: 2rem;
     padding: 0.2rem 0 0.2rem 0.8rem;
     font-size: 1rem;
+}
+
+.search-profile>input:focus-visible {
+    outline: solid 0.2rem #115e59;
 }
 
 .action-bar {
@@ -117,6 +122,7 @@ li>img {
     gap: 2rem;
     align-content: space-between;
     padding: 1rem 0.5rem;
+    border-left: solid 8px #115e59;
 }
 
 .card-text > p, .profile-name {
@@ -187,4 +193,9 @@ li>img {
 
 .light-font-color {
     color: #ffffff;
+}
+
+.round-box-shadow {
+    box-shadow: #55555536 6px 6px 4px;
+    border-radius: 0.7rem;
 }
