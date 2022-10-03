@@ -67,6 +67,7 @@ li>img {
 .user-profile {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .action-buttons {
