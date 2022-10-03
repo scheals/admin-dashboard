@@ -104,6 +104,12 @@ nav>ul {
     font-size: 1.1rem;
 }
 
+nav>ul>li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 li>img {
     padding-right: 0.2rem;
 }
@@ -133,10 +139,6 @@ li>img {
     grid-template-rows: 1fr;
     align-items: center;
     gap: 1rem;
-}
-
-.search-profile>p {
-
 }
 
 .search-profile>input {
@@ -211,6 +213,7 @@ li>img {
 .card-images {
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
 .dashboard-sidebar {
