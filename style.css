@@ -19,8 +19,24 @@ ul {
 
 .sidebar {
     display: grid;
-    justify-content: start;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto) 1fr;
+    padding-right: 2rem;
+    gap: 3rem;
+}
+
+nav>ul {
+    display: grid;
+    gap: 1rem;
+}
+
+li>img {
+    padding-right: 0.2rem;
+}
+
+.header {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
 }
 
 .main {
