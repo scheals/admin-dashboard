@@ -163,6 +163,10 @@ li>img {
     align-items: center;
 }
 
+.user-profile>.greeting>p {
+    font-weight: bold;
+}
+
 .action-buttons {
     align-self: center;
     display: flex;
@@ -171,7 +175,7 @@ li>img {
 }
 
 .action-buttons>button {
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2.2rem;
     border: none;
     border-radius: 2rem;
     font-weight: bold;
@@ -184,7 +188,7 @@ li>img {
     padding: 2rem 1rem 2rem 1rem;
 }
 
-.dashboard h3 {
+.dashboard h2 {
     margin-bottom: 0.5rem;
 }
 
@@ -210,10 +214,16 @@ li>img {
     font-size: 0.9rem;
 }
 
+.profile-name>:nth-child(1) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .card-images {
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+    margin-right: 1rem;
 }
 
 .dashboard-sidebar {
