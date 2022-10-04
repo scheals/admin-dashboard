@@ -146,10 +146,15 @@ li>img {
     border-radius: 2rem;
     padding: 0.2rem 0 0.2rem 0.8rem;
     font-size: 1rem;
+    margin-right: 4rem;
 }
 
 .search-profile>input:focus-visible {
     outline: solid 0.2rem #115e59;
+}
+
+.search-profile>:last-child {
+    margin-right: 4rem;
 }
 
 .action-bar {
@@ -185,7 +190,7 @@ li>img {
     display: grid;
     grid-template-columns: 4fr 1fr;
     gap: 2rem;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 1rem;
 }
 
 .dashboard h2 {
