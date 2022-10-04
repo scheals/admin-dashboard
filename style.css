@@ -83,9 +83,10 @@ ul {
 
 .sidebar {
     display: grid;
-    grid-template-rows: repeat(3, auto) 1fr;
+    grid-template-rows: repeat(3, auto);
     padding-right: 2rem;
     gap: 3rem;
+    align-content: start;
 }
 
 .sidebar>div {
