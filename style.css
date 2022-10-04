@@ -197,10 +197,17 @@ li>img {
     margin-bottom: 0.5rem;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
+    flex: 1;
 }
 
 .cards h3 {
@@ -233,7 +240,7 @@ li>img {
 
 .dashboard-sidebar {
     display: grid;
-    grid-template-rows: repeat(2, auto) 1fr;
+    grid-template-rows: repeat(2, auto);
     gap: 2rem;
 }
 
